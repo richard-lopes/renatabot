@@ -1,0 +1,22 @@
+{
+  "name": "renatabot",
+  "version": "0.0.1",
+  "description": "Renata Nodebot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richard-lopes/renatabot.git"
+  },
+  "keywords": [
+    "nodebot"
+  ],
+  "author": "bumblebees",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richard-lopes/renatabot/issues"
+  },
+  "homepage": "https://github.com/richard-lopes/renatabot#readme"
+}
