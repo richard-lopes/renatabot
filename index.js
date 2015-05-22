@@ -6,10 +6,9 @@ board.on('ready', function() {
   var led = new five.Led(13);
   led.blink(500);
 
-  var right = new five.Motor({pin: 9});
-  board.repl.inject({motor: right});
-  right.start(100);
+  var right = new five.Motor(9);
+  right.start(255);
 
-  var left = new five.Motor(8);
-  left.start(100);
+  var left = new five.Motor(10);
+  left.start(255);
 });
